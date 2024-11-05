@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="iE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .common{
+            width: 150px;
+            height: 150px;
+            border-radius:150px ;
+            margin: auto;
+            display: inline-block;
+            animation-name: xyz;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+
+
+        }
+        .b1{
+            background: blue;
+            
+        }
+        .b2{
+            background: rgb(182, 25, 25);
+            animation-delay: 1s;
+        }
+        .b3{
+            background: rgb(255, 0, 153);
+            animation-delay: 2s;
+
+        }
+        .b4{
+            background: rgb(77, 129, 135);
+            animation-delay: 1s;
+
+        }
+
+        .b5{
+            background: rgb(161, 179, 24);
+            animation-delay: 2s;
+
+        }
+        .b6{
+            background: rebeccapurple;
+            animation-delay: 3s;
+
+
+        }
+        .b7{
+            background-color: chocolate;
+            animation-delay: 4s;
+
+
+        }
+        .b8{
+            background: darkolivegreen;
+            animation-delay: 3s;
+
+        }
+        @keyframes xyz {
+            0%{
+                transform: translateY(0px);
+            }
+            10%{
+                background-color: rgb(152, 3, 115);
+                opacity: 0.7;
+            }
+            20%{
+                background-color: rgb(19, 147, 126);
+            }
+            30%{
+                background-color: goldenrod;
+            }
+            40%{
+                background-color: rgb(54, 218, 32);
+            }
+            50%{
+                background-color: rgb(54, 11, 11);
+            }
+            60%{
+                background-color: rgba(13, 207, 32, 0.122);
+            }
+            70%{
+              
+                background-color: rgb(129, 11, 26);
+            }
+            80%{
+                background-color: rgb(72, 32, 218);
+            }
+            90%{
+                background-color: rgb(11, 139, 73);
+            }
+            100%{
+                transform: translateY(100vh);
+            }
+            
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="b1 common "></div>
+    <div class="b2 common "></div>
+    <div class="b3 common "></div>
+    <div class="b4 common"></div>
+    <div class="b5 common"></div>
+    <div class="b6 common"></div>
+    <div class="b7 common"></div>
+    <div class="b8 common"></div>
+    
+</body>
+</html>
